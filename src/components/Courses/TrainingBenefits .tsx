@@ -68,7 +68,7 @@ export const TrainingBenefits = () => {
 
 				<div className='relative w-full max-w-sm md:col-start-3 md:col-end-3'>
 					<img
-						src='/images/placeholder.png'
+						src='/images/photo_2025-03-30_12-40-10.jpg'
 						alt='Схема метода СК'
 						className='object-cover object-top rounded-2xl shadow-sm'
 					/>
