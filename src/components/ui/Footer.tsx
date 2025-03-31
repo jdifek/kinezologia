@@ -22,7 +22,7 @@ export const Footer = () => {
 					{/* Логотип */}
 					<div className='flex flex-col items-center lg:items-start'>
 						<Link to='/'>
-							<img src='/icons/logo.png' alt='Логотип' className='w-24' />
+							<img src='/icons/logo.png' alt='Логотип' className='w-28 h-24' />
 						</Link>
 					</div>
 

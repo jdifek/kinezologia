@@ -20,6 +20,22 @@ const LEARNING_LIST = [
 	'Альтернативному тестированию (через реакции мио-фасциального корсета).',
 ]
 
+const SHORT_PROGRAM_LIST = [
+	'Теоретические основы сканирующей кинезиологии',
+	'Инструменты сканирующей кинезиологии',
+	'Практические аспекты сканирующей кинезиологии',
+	'Теория',
+	'Концепция сканирующей кинезиологии',
+	'Понятие о дистантных рецепторах и их роли в функционировании центральной нервной системы',
+	'Анатомия и физиология зрительного анализатора',
+	'Анатомия и физиология кожного анализатора',
+	'Оценка функционирования организма с позиции взаимосвязи реакции зрительного и кожного анализаторов и ответа центральной нервной системы через миотатический рефлекс',
+	'Практика',
+	'Подготовка тестеров',
+	'Варианты применения тестеров: контактное и бесконтактное воздействие на рецепторы эпидермиса кожи, бесконтактное – трансорбитально.',
+	'Алгоритмы тестирования и коррекции выявленных дисфункций',
+]
+
 export const BasicSeminar = () => {
 	return (
 		<div className='heading-section'>
@@ -31,7 +47,7 @@ export const BasicSeminar = () => {
 					className='text-3xl sm:text-5xl font-bold text-blue-700 mb-4 tracking-tight'
 				>
 					Основы сканирующей кинезиологии. <br /> Диагностика и коррекция
-					дисфункций организма человека
+					болевого синдрома
 				</motion.h2>
 			</div>
 
@@ -56,7 +72,7 @@ export const BasicSeminar = () => {
 				</motion.div>
 				<div className='relative w-full max-w-sm'>
 					<img
-						src='/images/professor.png'
+						src='/images/professor.jpg'
 						alt='Профессор Сущевский В.И.'
 						className='object-cover object-top'
 					/>
@@ -228,10 +244,26 @@ export const BasicSeminar = () => {
 				transition={{ duration: 0.5 }}
 				className='bg-white p-6'
 			>
-				<h3 className='text-xl sm:text-2xl font-semibold text-gray-800 mb-2'>
+				<h3 className='text-xl sm:text-2xl font-semibold text-gray-800 mb-4'>
 					Краткая программа
 				</h3>
-				<p className='text-gray-700'>Введение в сканирующую кинезиологию.</p>
+
+				<p className='text-gray-700 mb-4'>
+					Введение в сканирующую кинезиологию.
+				</p>
+
+				<h4 className='text-lg font-medium text-gray-800 mb-2'>
+					Вениамин Иванович Сущевский:
+				</h4>
+
+				<ul className='list-none space-y-2'>
+					{SHORT_PROGRAM_LIST.map((item, index) => (
+						<li key={index} className='flex items-start'>
+							<span className='w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2'></span>
+							{item}
+						</li>
+					))}
+				</ul>
 			</motion.div>
 		</div>
 	)

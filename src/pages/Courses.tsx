@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { CoursePrograms } from '../components/Courses/CoursePrograms'
-import { SeminarSchedule } from '../components/Courses/SeminarSchedule'
 import { TrainingAudience } from '../components/Courses/TrainingAudience '
 import { TrainingBenefits } from '../components/Courses/TrainingBenefits '
 
@@ -35,9 +34,9 @@ export const Courses = () => {
 			<div className='section' id='programs'>
 				<CoursePrograms />
 			</div>
-			<div className='section' id='schedule'>
+			{/* <div className='section' id='schedule'>
 				<SeminarSchedule />
-			</div>
+			</div> */}
 		</div>
 	)
 }

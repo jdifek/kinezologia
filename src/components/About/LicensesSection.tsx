@@ -3,19 +3,19 @@ import { Licenses } from '../../types'
 
 const LICENSE_ITEMS: Licenses[] = [
 	{
-		title: 'Лицензия №1',
+		title: 'Патент №1',
+		src: '/images/patent.jpg',
+	},
+	{
+		title: 'Патент №2',
 		src: '/images/placeholder.png',
 	},
 	{
-		title: 'Сертификат №1',
+		title: 'Патент №3',
 		src: '/images/placeholder.png',
 	},
 	{
-		title: 'Лицензия №2',
-		src: '/images/placeholder.png',
-	},
-	{
-		title: 'Сертификат №2',
+		title: 'Патент №4',
 		src: '/images/placeholder.png',
 	},
 ]
@@ -31,7 +31,7 @@ export const LicensesSection = () => {
 					transition={{ duration: 1 }}
 					viewport={{ once: true }}
 				>
-					Лицензии и сертификаты
+					Патент
 				</motion.h2>
 				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
 					{LICENSE_ITEMS.map((item, index) => (

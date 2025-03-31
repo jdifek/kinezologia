@@ -23,9 +23,10 @@ export type AwardsAndBenefitsItems = {
 
 export type CoursesItems = {
 	title: string
+	speaker: string
 	description: string
 	duration: string
-	price: string
+	// price: string
 }
 
 export type AdvantagesItems = {

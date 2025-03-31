@@ -21,7 +21,7 @@ const NAV_ITEMS = [
 		submenu: [
 			{ href: '/basic-seminar', label: 'Базовый семинар' },
 			{ href: '#programs', label: 'Программы курсов' },
-			{ href: '#schedule', label: 'График семинаров' },
+			// { href: '#schedule', label: 'График семинаров' },
 		],
 	},
 	{
@@ -109,11 +109,11 @@ export const Header = () => {
 			animate={{ y: 0 }}
 			transition={{ duration: 0.5 }}
 		>
-			<nav className='flex justify-between md:justify-around items-center py-4 px-8 lg:px-11'>
+			<nav className='flex justify-between md:justify-around items-center pt-2 px-8 lg:px-11'>
 				{/* Логотип */}
 				<div className='text-2xl font-bold text-blue-600 cursor-pointer'>
 					<Link to='/'>
-						<img src='/icons/logo.png' alt='Логотип' className='w-20 h-16' />
+						<img src='/icons/logo.png' alt='Логотип' className='w-28 h-24' />
 					</Link>
 				</div>
 
@@ -127,7 +127,7 @@ export const Header = () => {
 
 				{/* Навигация */}
 				<ul
-					className={`max-md:overflow-y-auto max-md:h-screen md:flex md:items-center md:gap-4 absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none p-6 md:p-0 transition-all duration-300 ${
+					className={`max-md:overflow-y-auto max-md:h-screen md:flex md:items-center md:gap-2 lg:gap-4 absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none p-6 md:p-0 transition-all duration-300 ${
 						isOpen ? 'block' : 'hidden'
 					}`}
 				>

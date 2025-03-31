@@ -6,11 +6,15 @@ const VIDEO_ITEMS = [
 		src: '/images/placeholder.png', // Пример, нужно заменить на реальное видео
 	},
 	{
-		title: 'Отзыв Сергея о продвинутом курсе',
+		title: 'Отзыв Сергея о школе',
 		src: '/images/placeholder.png',
 	},
 	{
-		title: 'Отзыв Ольги о модулях',
+		title: 'Отзыв Ольги о школе',
+		src: '/images/placeholder.png',
+	},
+	{
+		title: 'Отзыв Михаила о базовом курсе',
 		src: '/images/placeholder.png',
 	},
 ]
