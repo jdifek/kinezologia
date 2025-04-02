@@ -26,8 +26,8 @@ export const HeroSection = () => {
 						transition={{ delay: 0.3, duration: 0.5 }}
 						className='text-lg sm:text-xl text-gray-600 mb-8'
 					>
-						Единственная школа Кинезиологии в России, обучающая врачей на
-						постоянном уровне{' '}
+						Единственная авторская школа кинезиологии в России основанная на
+						запатентованных методиках{' '}
 					</motion.p>
 					<div className='flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6'>
 						<Button>Записаться на курс</Button>

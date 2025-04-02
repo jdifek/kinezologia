@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion'
 import { PatentsSection } from '../components/About/PatentsSection'
-import { TeachersSection } from '../components/About/TeachersSection'
-import { LicensesSection } from '../components/About/LicensesSection'
 import { SchoolsHistory } from '../components/About/SchoolsHistory'
 
 export const About = () => {
@@ -32,12 +30,12 @@ export const About = () => {
 			<div className='section' id='patents'>
 				<PatentsSection />
 			</div>
-			<div className='section' id='teachers'>
+			{/* <div className='section' id='teachers'>
 				<TeachersSection />
-			</div>
-			<div className='section' id='licenses'>
+			</div> */}
+			{/* <div className='section' id='licenses'>
 				<LicensesSection />
-			</div>
+			</div> */}
 		</div>
 	)
 }

@@ -21,10 +21,10 @@ export const AdvantagesSection = () => {
 	return (
 		<section className='py-20 bg-white relative overflow-hidden'>
 			<ParallaxBanner
-				layers={[{ image: '/images/advantages-photo.jpg', speed: -20 }]}
+				layers={[{ image: '/images/advantages-photo.jpeg', speed: -20 }]}
 			>
 				<div className='overlay'></div>
-				<div className='container flex flex-col justify-center lg:h-[900px] xl:h-[1200px] py-24 relative z-10'>
+				<div className='container flex flex-col justify-center lg:h-[900px] xl:h-[1500px] py-24 relative z-10'>
 					<motion.h2
 						className='text-3xl md:text-4xl font-bold text-blue-400 text-center mb-16 tracking-tight'
 						initial={{ opacity: 0 }}
