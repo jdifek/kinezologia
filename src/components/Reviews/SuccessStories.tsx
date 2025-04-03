@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import '../../assets/styles/SuccessStoriesSlider.css'
+import '../../assets/styles/CarouselSlider.css'
 
 const STORIES = [
 	{
@@ -41,7 +41,7 @@ export const SuccessStories = () => {
 
 	return (
 		<section className='py-16 bg-gray-50 rounded-2xl text-center'>
-			<div className='success-stories container mx-auto px-4'>
+			<div className='carousel container mx-auto px-4'>
 				<motion.h3
 					className='text-2xl md:text-3xl font-semibold text-blue-600 mb-12 text-center'
 					initial={{ opacity: 0 }}

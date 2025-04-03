@@ -75,3 +75,16 @@ body {
 	z-index: 1;
 	pointer-events: none;
 }
+
+@media (max-width: 600px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr; /* Две равные колонки */
+		gap: 8px;
+	}
+
+	.grid-container h3 {
+		grid-column: span 2; /* Заголовок занимает обе колонки */
+		margin-top: 8px;
+	}
+}

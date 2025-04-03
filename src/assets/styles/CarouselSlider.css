@@ -1,0 +1,12 @@
+.carousel .slick-dots {
+	bottom: -20px;
+}
+
+.carousel .slick-dots li button::before {
+	font-size: 10px;
+	color: #3b82f6;
+}
+
+.carousel .slick-dots li.slick-active button::before {
+	color: #1d4ed8;
+}
