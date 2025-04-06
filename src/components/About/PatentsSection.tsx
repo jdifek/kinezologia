@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion'
 import { ParallaxBanner } from 'react-scroll-parallax'
-import { PatentItems } from '../../types'
-
 
 export const PatentsSection = () => {
   return (
